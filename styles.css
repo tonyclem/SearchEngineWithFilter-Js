@@ -23,6 +23,9 @@ body {
   padding: 20px;
   overflow-x: scroll;
 }
+.container::-webkit-scrollbar {
+  display: none;
+}
 
 .container form {
   width: 100%;
